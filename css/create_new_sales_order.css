@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Area */
+main {
+    margin-left: 300px; /* Space for the sidebar */
+    margin-top: 65px; /* Space for the top navbar */
+    padding: 20px;
+    width: 80%; /* Adjust width as needed... for example, 80% of the viewport width */
+    max-width: 900px; /* Maximum width of the box */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styles */
+.create-sales-order-form {
+    width: 100%;
+    max-width: 600px; /* Medium width */
+    margin: 0 auto; /* Center the form */
+}
+
+.create-sales-order-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.create-sales-order-form input[type="text"],
+.create-sales-order-form input[type="number"],
+.create-sales-order-form input[type="date"],
+.create-sales-order-form select,
+.create-sales-order-form textarea {
+    width: 100%; /* Full width of parent container */
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.create-sales-order-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.create-sales-order-form button {
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Medium width for button */
+    padding: 12px;
+    background-color: #184a96;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto; /* Center align the button */
+}
+
+.create-sales-order-form button:hover {
+    background-color: #190563;
+}

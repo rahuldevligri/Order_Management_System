@@ -1,0 +1,54 @@
+/* General styling for registration */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Form Styling */
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Styling for the radio buttons group */
+.radio-group {
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center align vertically */
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px; /* Add some space between the radio button and the label */
+}
+
+/* Input fields */
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #575757;
+}

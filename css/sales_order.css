@@ -1,0 +1,129 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    margin-top: 70px; /* Adjust based on your header height */
+    margin-left: 220px; /* Adjust based on sidebar width if present */
+}
+
+/* Create New Sales Order Link */
+.create-new-order {
+    position: fixed;
+    top: 60px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    color: #184a96;
+    font-weight: bold;
+}
+
+/* Sales Order Summary Styles */
+.sales-order-summary {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #184a96;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type="text"], 
+form select, 
+form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #184a96;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #155a8a;
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto; /* Allows horizontal scrolling if the table is too wide */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #184a96;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Action Links */
+a {
+    color: #184a96;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        margin-left: 0; /* Adjust margin for small screens */
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    form {
+        text-align: left; /* Align form elements to the left on small screens */
+    }
+
+    form input[type="text"], 
+    form select, 
+    form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
