@@ -32,8 +32,8 @@ body {
 
 /* Hover effect */
 .top-navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #f4f4f4;
+    color: #184a96;
 }
 
 /* Sidebar */
@@ -63,7 +63,8 @@ body {
 }
 
 .sidebar a:hover {
-    background-color: #575757;
+    background-color: #f4f4f4;
+    color: #184a96;
 }
 
 /* Main Content */
